@@ -9,13 +9,16 @@
     "@sailshq/lodash": "^3.10.3",
     "@sailshq/socket.io-redis": "^5.2.0",
     "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
     "grunt": "1.0.4",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "sails": "^1.2.3",
     "sails-hook-grunt": "^4.0.0",
     "sails-hook-orm": "^2.1.1",
-    "sails-hook-sockets": "^2.0.0"
+    "sails-hook-sockets": "^2.0.0",
+    "style-loader": "^1.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
@@ -27,7 +30,8 @@
     "rimraf": "^3.0.0",
     "webpack": "^4.39.2",
     "webpack-cli": "^3.3.7",
-    "webpack-dev-server": "^3.8.0"
+    "webpack-dev-server": "^3.8.0",
+    "eva-tool": "github:despegar/eva-tool"
   },
   "scripts": {
     "start": "npm-run-all --parallel open:client lift",
@@ -38,7 +42,8 @@
     "build:prod": "webpack --mode production",
     "clean": "rimraf .tmp && mkdirp .tmp/public",
     "lift": "sails lift",
-    "debug": "node --inspect app.js"
+    "debug": "node --inspect app.js",
+    "eva": "rm -rf assets/eva3/eva && mkdir -p assets/eva3/eva/ && eva-tool --version && eva-tool get-css assets/eva3/eva.manifest.json assets/eva3/ x-version-override:eva=reva"
   },
   "main": "app.js",
   "repository": {

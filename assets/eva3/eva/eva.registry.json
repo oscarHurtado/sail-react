@@ -1,0 +1,50 @@
+{
+  "library": "EVA",
+  "email": "eva@despegar.com",
+  "version": "3",
+  "full_version": "3.64.0",
+  "eva": {
+    "version": "3",
+    "components": [
+      "loader"
+    ],
+    "icons": [],
+    "paths": {
+      "font": "resources/fonts/",
+      "sprites": "resources/sprites/",
+      "images": "resources/images/"
+    },
+    "media": [
+      "desktop"
+    ],
+    "management": "shopping",
+    "product": "packages",
+    "loaders": [],
+    "instance": "results"
+  },
+  "package": "http://backoffice.despegar.com/eva/inc/packages/tmp/1566834619081/eva-package.tar.gz",
+  "package_id": 1566834619081,
+  "generated": "2019-08-26T15:50:19.083Z",
+  "maintainers": [
+    {
+      "name": "Marcos Sanchez",
+      "email": "marsanchez@despegar.com"
+    },
+    {
+      "name": "Esteban Coria",
+      "email": "esteban.coria@despegar.com"
+    },
+    {
+      "name": "Julián Schuster",
+      "email": "julian.schuster@despegar.com"
+    },
+    {
+      "name": "Belén Montoya",
+      "email": "belen.montoya@despegar.com"
+    },
+    {
+      "name": "Julián Saidman",
+      "email": "julian.saidman@despegar.com"
+    }
+  ]
+}

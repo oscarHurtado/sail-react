@@ -1,0 +1,21 @@
+{
+    "eva": {
+       "version": "3",
+       "components": [
+          "loader"
+       ],
+       "icons": [],
+       "paths": {
+          "font": "resources/fonts/",
+          "sprites": "resources/sprites/",
+          "images": "resources/images/"
+       },
+       "media": [
+          "desktop"
+       ],
+       "management": "shopping",
+       "product": "packages",
+       "loaders": [],
+       "instance": "results"
+    }
+ }

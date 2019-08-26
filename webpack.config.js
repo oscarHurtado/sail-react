@@ -17,7 +17,11 @@ module.exports = {
       },
       {
         use: ['style-loader', 'css-loader'],
-        test: /\.css$/
+        test: /(\.css$)/
+      },{
+        test: /(\.(ttf)|woff(2)?$)/,
+        use:['file-loader']
+
       }
     ]
   },
